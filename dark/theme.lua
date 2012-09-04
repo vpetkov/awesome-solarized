@@ -30,21 +30,21 @@ theme.colors.green   = "#859900"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "Ubuntu Mono 11"
+theme.font      = "Ubuntu Mono 8"
 
 -- {{{ Colors
-theme.fg_normal  = theme.colors.base02
-theme.fg_focus   = theme.colors.base03
+theme.fg_normal  = theme.colors.base1
+theme.fg_focus   = theme.colors.base1
 theme.fg_urgent  = theme.colors.base3
 
 theme.bg_normal  = theme.colors.base3
-theme.bg_focus   = theme.colors.base1
+theme.bg_focus   = theme.colors.base3
 theme.bg_urgent  = theme.colors.red
 theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.border_width  = "2"
+theme.border_width  = "0"
 theme.border_normal = theme.bg_normal
 theme.border_focus  = theme.bg_focus
 theme.border_marked = theme.bg_urgent
@@ -78,21 +78,6 @@ theme.taglist_squares_unsel = theme.default_themes_path.."/zenburn/taglist/squar
 -- {{{ Misc
 theme.awesome_icon           = theme.default_themes_path.."/zenburn/awesome-icon.png"
 theme.menu_submenu_icon      = theme.default_themes_path.."/default/submenu.png"
--- }}}
-
--- {{{ Layout
-theme.layout_tile       = theme.default_themes_path.."/zenburn/layouts/tile.png"
-theme.layout_tileleft   = theme.default_themes_path.."/zenburn/layouts/tileleft.png"
-theme.layout_tilebottom = theme.default_themes_path.."/zenburn/layouts/tilebottom.png"
-theme.layout_tiletop    = theme.default_themes_path.."/zenburn/layouts/tiletop.png"
-theme.layout_fairv      = theme.default_themes_path.."/zenburn/layouts/fairv.png"
-theme.layout_fairh      = theme.default_themes_path.."/zenburn/layouts/fairh.png"
-theme.layout_spiral     = theme.default_themes_path.."/zenburn/layouts/spiral.png"
-theme.layout_dwindle    = theme.default_themes_path.."/zenburn/layouts/dwindle.png"
-theme.layout_max        = theme.default_themes_path.."/zenburn/layouts/max.png"
-theme.layout_fullscreen = theme.default_themes_path.."/zenburn/layouts/fullscreen.png"
-theme.layout_magnifier  = theme.default_themes_path.."/zenburn/layouts/magnifier.png"
-theme.layout_floating   = theme.default_themes_path.."/zenburn/layouts/floating.png"
 -- }}}
 
 -- {{{ Titlebar
