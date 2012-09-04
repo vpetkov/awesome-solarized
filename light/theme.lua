@@ -31,21 +31,21 @@ theme.colors.green   = "#859900"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "ubuntu 9"
+theme.font      = "Ubuntu Mono 8"
 
 -- {{{ Colors
-theme.fg_normal  = theme.colors.base02
-theme.fg_focus   = theme.colors.base03
+theme.fg_normal  = theme.colors.base1
+theme.fg_focus   = theme.colors.base1
 theme.fg_urgent  = theme.colors.base3
 
 theme.bg_normal  = theme.colors.base3
-theme.bg_focus   = theme.colors.base1
+theme.bg_focus   = theme.colors.base3
 theme.bg_urgent  = theme.colors.red
 theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.border_width  = "2"
+theme.border_width  = "0"
 theme.border_normal = theme.bg_normal
 theme.border_focus  = theme.bg_focus
 theme.border_marked = theme.bg_urgent
@@ -79,21 +79,6 @@ theme.taglist_squares_unsel = theme.path.."/taglist/squarez.png"
 -- {{{ Misc
 theme.awesome_icon           = theme.default_themes_path.."/sky/awesome-icon.png"
 theme.menu_submenu_icon      = theme.default_themes_path.."/default/submenu.png"
--- }}}
-
--- {{{ Layout
-theme.layout_tile       = theme.path.."/layouts/tile.png"
-theme.layout_tileleft   = theme.path.."/layouts/tileleft.png"
-theme.layout_tilebottom = theme.path.."/layouts/tilebottom.png"
-theme.layout_tiletop    = theme.path.."/layouts/tiletop.png"
-theme.layout_fairv      = theme.path.."/layouts/fairv.png"
-theme.layout_fairh      = theme.path.."/layouts/fairh.png"
-theme.layout_spiral     = theme.path.."/layouts/spiral.png"
-theme.layout_dwindle    = theme.path.."/layouts/dwindle.png"
-theme.layout_max        = theme.path.."/layouts/max.png"
-theme.layout_fullscreen = theme.path.."/layouts/fullscreen.png"
-theme.layout_magnifier  = theme.path.."/layouts/magnifier.png"
-theme.layout_floating   = theme.path.."/layouts/floating.png"
 -- }}}
 
 -- {{{ Titlebar
