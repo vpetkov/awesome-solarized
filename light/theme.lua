@@ -10,7 +10,7 @@
 theme = {}
 theme.path = os.getenv( "HOME" ) .. "/.config/awesome/themes/awesome-solarized/light"
 theme.default_themes_path = "/usr/share/awesome/themes"
-theme.wallpaper_cmd = { "awsetbg "..theme.default_themes_path.."/sky/sky-background.png" }
+theme.wallpaper_cmd = { "hsetroot -solid '#fdf6e3'" }
 theme.colors = {}
 theme.colors.base03  = "#002b36"
 theme.colors.base02  = "#073642"
